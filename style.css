@@ -288,7 +288,7 @@ section.stay {
   font-family: inherit;
 }
 .stay .center .e-mail input:focus {
-  outline: 1px solid var(--primary-color);
+  outline: 2px solid var(--primary-color);
 }
 .stay .center .e-mail span {
   display: flex;
@@ -372,9 +372,16 @@ footer .ls .socials {
   margin-top: 2.4rem;
 }
 
+
 footer .ls .socials i {
   color: var(--color-gray-400);
 }
+footer .ls .socials span:hover{
+  background-color: #f59e0b;
+}
+footer .ls .socials span i{
+  color: #f3f4f6;
+} 
 
 footer .ls .socials span {
   display: flex;
@@ -382,6 +389,7 @@ footer .ls .socials span {
   justify-content: center;
   background-color: var(--color-gray-200);
   width: 4rem;
+  font-size: 2rem;
   height: 4rem;
   border-radius: 50%;
   margin-right: 1.2rem;

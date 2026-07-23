@@ -1,20 +1,5 @@
 /* MEDIA QUERIES  */
 
-@media screen and (max-width: 102.4rem) {
-  section .container .display {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  footer {
-    grid-template-columns: repeat(2, 1fr);
-    row-gap: 32px;
-  }
-
-  footer .ls {
-    grid-column: 1 / -1;
-  }
-}
-
 @media screen and (max-width: 76.8rem) {
   nav .container {
     padding: 16px 20px;
@@ -98,7 +83,7 @@
   }
 
   footer {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2 1fr 1fr);
     padding: 4rem 2rem;
   }
 
